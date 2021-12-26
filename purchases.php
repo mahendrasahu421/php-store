@@ -23,34 +23,47 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <a href="add_stock.php" class="btn btn-primary">Create New Stock</a>
+                            <a href="add_quotations.php" class="btn btn-primary">Create New Stock</a>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
                             <table id="example2" class="table table-bordered table-hover">
                                 <thead>
                                     <tr>
-                                        <th>WareHouse name</th>
-                                        <th>Product</th>
-                                        <th>Status</th>
-                                        <th>Quantity</th>
-                                        <th>Type/Reason</th>
+                                        <th>
+                                            Purchase ID</th>
+                                        <th>Purchaser</th>
+                                        <th>Purchase Date</th>
+                                        <th>Warehouse</th>
+                                        <th>Description</th>
+                                        <th>Total Amount (Taka)</th>
+                                        <th>Paid Amount (Taka)</th>
+                                        <th>Discount (Taka)</th>
+                                        <th>Due Amount (Taka)</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                    <td>SHIV TRADERS</td>
-                                    <td>Simple Product 1</td>
-                                    <td>IN</td>
-                                    <td>166</td>
-                                    <td>StockAdjustment</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                     <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                                 <tfoot>

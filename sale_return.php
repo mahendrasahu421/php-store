@@ -5,13 +5,13 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Stock List</h1>
+                    <h1 class="m-0">Sale Return List</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Catalog</li>
-                        <li class="breadcrumb-item active">Stock List</li>
+                        <li class="breadcrumb-item active">Returns</li>
+                        <li class="breadcrumb-item active">Sale Return List</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -23,34 +23,22 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <a href="add_stock.php" class="btn btn-primary">Create New Stock</a>
+                            <p>Sale Return List</p>
                         </div>
+                       
                         <!-- /.card-header -->
                         <div class="card-body">
                             <table id="example2" class="table table-bordered table-hover">
                                 <thead>
                                     <tr>
-                                        <th>WareHouse name</th>
-                                        <th>Product</th>
-                                        <th>Status</th>
-                                        <th>Quantity</th>
-                                        <th>Type/Reason</th>
+                                        <th>ID</th>
+                                        <th>Adjustment (Taka)</th>
+                                        <th>Created By</th>
+                                       
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                    <td>SHIV TRADERS</td>
-                                    <td>Simple Product 1</td>
-                                    <td>IN</td>
-                                    <td>166</td>
-                                    <td>StockAdjustment</td>
                                     </tr>
-                                    <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
                                     </tr>
                                 </tbody>
                                 <tfoot>

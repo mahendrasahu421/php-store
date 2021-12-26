@@ -109,11 +109,6 @@
         <!-- Edit Modal HTML -->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
-                    <h4>Nav Tabs Overlay for loading</h4>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-md-12">
                     <div class="card card-primary card-tabs">
                         <div class="card-header p-0 pt-1">
@@ -152,22 +147,22 @@
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <div class="form-group">
-                                                        <label for="exampleFormControlSelect1">catogery</label>
+                                                        <label for="exampleFormControlSelect1">Catogery</label>
                                                         <select class="form-control" id="exampleFormControlSelect1">
-                                                            <option>1</option>
-                                                            <option>2</option>
-                                                            <option>3</option>
-                                                            <option>4</option>
-                                                            <option>5</option>
+                                                            <option>Cat1</option>
+                                                            <option>Cat2</option>
+                                                            <option>Subcat1</option>
+                                                            <option>Subcat2</option>
+                                                            <option>Subcat3</option>
                                                         </select>
                                                     </div>
                                                     <div class="card">
                                                         <div class="card-body">
                                                             <div class="form-group">
-                                                                <label for="exampleInputEmail1"> Product Name</label>
+                                                                <label for="exampleInputEmail1">Product Name</label>
                                                                 <input type="text" class="form-control"
                                                                     id="exampleInputEmail1" aria-describedby="emailHelp"
-                                                                    placeholder="Enter name">
+                                                                    placeholder="">
                                                             </div>
                                                             <div class="form-outline">
                                                                 <label class="form-label"
@@ -199,9 +194,11 @@
                                                     <div class="row">
                                                         <div class="col-sm-6">
                                                             <div class="form-group">
-                                                                <label for="exampleFormControlSelect1">catogery</label>
+                                                                <label for="exampleFormControlSelect1">Product
+                                                                    Type</label>
                                                                 <select class="form-control"
                                                                     id="exampleFormControlSelect1">
+                                                                    <option>Select Status</option>
                                                                     <option>simple</option>
                                                                     <option>variable</option>
                                                                 </select>
@@ -280,6 +277,9 @@
                                                                     id="exampleInputEmail1" aria-describedby="emailHelp"
                                                                     placeholder="SKU">
                                                             </div>
+
+                                                            <button href="product_add.php" class="btn btn-primary">Back</button>
+                                                            <button class="btn btn-primary">Continue</button>
                                                         </div>
                                                     </div>
                                                 </div>

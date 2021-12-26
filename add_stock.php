@@ -8,12 +8,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0"> Add Attributs</h1>
+                    <h1 class="m-0"> Add Stock</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active"> Add Attribute</li>
+                        <li class="breadcrumb-item active"> Add Stock</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -37,6 +37,7 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
+
     <body>
         <!-- Edit Modal HTML -->
         <div class="card">
@@ -44,9 +45,15 @@
                 <form>
                     <div class="card-body">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Name</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
-                        </div>                        
+                            <label for="inputStatus">Products</label>
+                            <select id="inputStatus" class="form-control custom-select">
+                                <option disable>Select Products</option>
+                                <option>simple product1</option>
+                                <option>simple product2</option>
+                                <option>simple product3</option>
+                                <option>simple product4</option>
+                            </select>
+                        </div>
                     </div>
                     <!-- /.card-body -->
                     <div class="card-footer">

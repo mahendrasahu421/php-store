@@ -14,7 +14,8 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Add Unit</li>
+                        <li class="breadcrumb-item active">Catalog</li>
+                        <li class="breadcrumb-item active">Add New Unit</li>
                     </ol>
                 </div>
             </div>
@@ -29,20 +30,22 @@
             <!-- general form elements -->
             <div class="card">
                 <div class="card-header">
-                  <a href="product_unit.php" target="_blank" rel="noopener noreferrer">Product List</a>
+                <a href="product_unit.php" class="btn btn-primary">Product List</a>
                 </div>
                 <!-- /.card-header -->
                 <!-- form start -->
                 <form>
                     <div class="card-body">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Status</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1"
-                                placeholder="Password">
+                            <label for="inputStatus">Status</label>
+                            <select id="inputStatus" class="form-control custom-select">                                                           
+                               <option>Active</option>
+                                <option>Inactive</option>
+                            </select>
                         </div>
                     </div>
                     <!-- /.card-body -->

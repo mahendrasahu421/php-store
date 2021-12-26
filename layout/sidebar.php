@@ -140,23 +140,210 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="product_attribute.php" class="nav-link">
+                            <a href="add_stock.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Add Stock</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="product_variations.php" class="nav-link">
+                            <a href="stock_transfers.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>List Stock Transfers</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="product_brand.php" class="nav-link">
+                            <a href="stock_transfer.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Add Stock Transfers</p>
                             </a>
                         </li>                                            
+            </ul>
+            </li>           
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                    Quotations
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="quotations.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>ALL Quotation</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="add_quotations.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p> Add Quotation</p>
+                            </a>
+                        </li>                                                                 
+            </ul>
+            </li>           
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                    purchase
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="purchases.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>List </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="add_purchase.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p> Add purchases</p>
+                            </a>
+                        </li>                                                                 
+            </ul>
+            </li>           
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                   sell/orders
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="sales.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>List </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="orders.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Orders</p>
+                            </a>
+                        </li>                                                                 
+                        <li class="nav-item">
+                            <a href="add_sale.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Add Sale</p>
+                            </a>
+                        </li>                                                                 
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>POS</p>
+                            </a>
+                        </li>                                                                 
+            </ul>
+            </li>           
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                 Returns
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="sale_return.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Sale Returns </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="add_sale_return.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Add Sale Return</p>
+                            </a>
+                        </li>                                                                 
+                        <li class="nav-item">
+                            <a href="purchase_return.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Purchase Return</p>
+                            </a>
+                        </li>                                                                 
+                        <li class="nav-item">
+                            <a href="add_purchase_return.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Add Return Purchase</p>
+                            </a>
+                        </li>                                                                 
+            </ul>
+            </li>           
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                 Accounts
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="account_list.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Account List</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="ledger.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Ledger Report</p>
+                            </a>
+                        </li>                                                                 
+                        <li class="nav-item">
+                            <a href="adjustment.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Asset Adjusment</p>
+                            </a>
+                        </li>                                                                 
+                        <li class="nav-item">
+                            <a href="payment-adjustment.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Payments</p>
+                            </a>
+                        </li>                                                                 
+                        <li class="nav-item">
+                            <a href="reciept-adjustment.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Recipts</p>
+                            </a>
+                        </li>                                                                 
+                        <li class="nav-item">
+                            <a href="expense-adjustment.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>expense</p>
+                            </a>
+                        </li>                                                                 
+            </ul>
+            </li>           
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                 News/Blog
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="blog.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Manage Blog</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="ledger.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Blog Catogery</p>
+                            </a>
+                        </li>                                                                                                                                                                                                                                                                                                              
             </ul>
             </li>           
             </ul>

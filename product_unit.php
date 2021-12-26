@@ -10,8 +10,8 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">catelog</li>
-                        <li class="breadcrumb-item active">product unit</li>
+                        <li class="breadcrumb-item active">Catelog</li>
+                        <li class="breadcrumb-item active">Product unit</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -23,7 +23,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <a href="store_unit.php" class="btn btn-primary">Create new units</a>
+                            <a href="store_unit.php" class="btn btn-primary">Create New units</a>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">

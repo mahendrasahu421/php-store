@@ -8,13 +8,13 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">create units </h1>
+                    <h1 class="m-0">Create Units </h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">catelog</li>
-                        <li class="breadcrumb-item active">creat unit</li>
+                        <li class="breadcrumb-item active">Catelog</li>
+                        <li class="breadcrumb-item active">Create Unit</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->

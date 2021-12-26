@@ -9,12 +9,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Catogery</h1>
+                    <h1>Add category</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Catogery</li>
+                        <li class="breadcrumb-item active">Add Category</li>
                     </ol>
                 </div>
             </div>
@@ -23,30 +23,35 @@
 
     <!-- Main content -->
     <!-- Default box -->
-    <div class="card">
-        <section class="content">
+    <section class="content">
+            <div class="card">
             <form>
                 <div class="card-body">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Name</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder=" ">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Description</label>
                         <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Description">
                     </div>
-                    <div>
-                        <p>Parent Category</p>
-                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                   
+                <div class="form-group">
+                        <label for="inputStatus">Status</label>
+                        <select id="inputStatus" class="form-control custom-select">
+                            <option disable>Select Category </option>
+                            <option>cat1</option>
+                            <option>cat2</option>
+                            <option>sub1</option>
+                            <option>subcat2</option>
+                            <option>subcat3</option>
+                            <option>subcat4</option>                          
                         </select>
                     </div>
+                   
 					<div class="form-group">
                         <label for="exampleInputPassword1">Sluge</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Sluge">
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="">
                     </div>
                 </div>
                 <!-- /.card-body -->
@@ -57,8 +62,8 @@
             </form>
 
 
+        </div>
         </section>
         <!-- /.content -->
-    </div>
     <!-- /.content-wrapper -->
     <?php include('layout/footer.php') ?>
