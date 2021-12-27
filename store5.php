@@ -37,7 +37,7 @@
                     </div>
                    
                 <div class="form-group">
-                        <label for="inputStatus">Status</label>
+                        <label for="inputStatus">Parent Category</label>
                         <select id="inputStatus" class="form-control custom-select">
                             <option disable>Select Category </option>
                             <option>cat1</option>

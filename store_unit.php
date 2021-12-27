@@ -23,14 +23,12 @@
     </section>
 
     <!-- Main content -->
-    <!-- Default box -->
-    <div class="card">
-        <!-- left column -->
-        <div class="col-md-12">
-            <!-- general form elements -->
+    <!-- general form elements -->
+    <section class="content">
+        <div class="container-fluid">
             <div class="card">
                 <div class="card-header">
-                <a href="product_unit.php" class="btn btn-primary">Product List</a>
+                    <a href="product_attribute.php" class="btn btn-primary">Product List</a>
                 </div>
                 <!-- /.card-header -->
                 <!-- form start -->
@@ -42,8 +40,8 @@
                         </div>
                         <div class="form-group">
                             <label for="inputStatus">Status</label>
-                            <select id="inputStatus" class="form-control custom-select">                                                           
-                               <option>Active</option>
+                            <select id="inputStatus" class="form-control custom-select">
+                                <option>Active</option>
                                 <option>Inactive</option>
                             </select>
                         </div>
@@ -55,6 +53,9 @@
                     </div>
                 </form>
             </div>
-            <!-- /.card -->
-            <!-- /.content-wrapper -->
-            <?php include('layout/footer.php') ?>
+        </div>
+    </section>
+</div>
+<!-- /.card -->
+<!-- /.content-wrapper -->
+<?php include('layout/footer.php') ?>

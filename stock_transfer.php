@@ -88,43 +88,38 @@
                     </div>
                     </form>
                 </div>
-            </div>
-        </div>
-        <div class="card">
-        <div class="row">
-            
-            <div class="col-sm-12">
-                    <div class="card-body">
-                        <div class="form-group">
-                            <label for="Stock Transfer Date">Products</label>
-                            <select id="inputStatus" class="form-control custom-select">
-                                <option disable>Select Attribute</option>
-                                <option>product1</option>
-                                <option>product2</option>
-                                <option>product3</option>
-                                <option>product4</option>
-                            </select>
-                        </div>
-                        <div class="">
-                            <button class="btn btn-primary">Add</button>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Stock Transfer Date">Products</label>
+                                <select id="inputStatus" class="form-control custom-select">
+                                    <option disable>Select Attribute</option>
+                                    <option>product1</option>
+                                    <option>product2</option>
+                                    <option>product3</option>
+                                    <option>product4</option>
+                                </select>
+                            </div>
+                            <div class="">
+                                <button class="btn btn-primary">Add</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="card">
-        <div class="row">
-            <div class="col-sm-12">
-                 <div class="card-body">
-                     <div class="form-group">
-                         <label for="inputStatus">Note</label>
-                         <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
-                         
-                     </div>
-                     <div class="">
-                            <button class="btn btn-primary">Submit</button>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="inputStatus">Note</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+        
+                            </div>
+                            <div class="">
+                                <button class="btn btn-primary">Submit</button>
+                            </div>
                         </div>
-                 </div>
+                    </div>
                 </div>
             </div>
         </div>

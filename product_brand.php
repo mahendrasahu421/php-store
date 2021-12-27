@@ -25,8 +25,6 @@
                         <div class="card-header">
                             <a href="store4.php" class="btn btn-primary">Create New Brand</a>
                         </div>
-
-
                         <!-- /.card-header -->
                         <div class="card-body">
                             <table id="example2" class="table table-bordered table-hover">

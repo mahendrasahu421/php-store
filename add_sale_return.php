@@ -25,26 +25,33 @@
     <!-- Main content -->
     <!-- Default box -->
     <div class="card">
-        <section class="content">
-            <form>
-                <div class="card-body">
+        <!-- left column -->
+        <div class="col-md-12">
+            <!-- general form elements -->
+            <div class="card">
+                <!-- /.card-header -->
+                <!-- form start -->
+                <form>
+                    <div class="card-body">
                     <div class="form-group">
-                        <label for="inputStatus">Chose Sale</label>
-                        <select id="inputStatus" class="form-control custom-select">
-                            <option disable>Select Sale #</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                        </select>
+                            <label for="inputStatus">Chose Sale</label>
+                            <select id="inputStatus" class="form-control custom-select">                                                           
+                               <option >select Sale#</option>
+                               <option>1</option>
+                               <option>2</option>
+                               <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
                     </div>
-                </div>
-                <!-- /.card-body -->
-            </form>
+                    <!-- /.card-body -->
 
-
-        </section>
-        <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
-    <?php include('layout/footer.php') ?>
+                </form>
+            </div>
+            <!-- /.card -->
+            <!-- /.content-wrapper -->
+            <?php include('layout/footer.php') ?>

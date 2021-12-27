@@ -34,7 +34,7 @@
                                     <tr class="text-center">
                                         <th>ID</th>
                                         <th>Name</th>
-                                        <th>Status</th>
+                                        <th>Attribute</th>
                                         <th>Action</th>
 
                                     </tr>

@@ -14,6 +14,7 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Catalog</li>
                         <li class="breadcrumb-item active">Add variation</li>
                     </ol>
                 </div>
@@ -24,34 +25,39 @@
     <!-- Main content -->
     <!-- Default box -->
     <div class="card">
-        <section class="content">
-            <form>
-                <div class="card-body">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Name</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputStatus">Attribute</label>
-                        <select id="inputStatus" class="form-control custom-select">
-                            <option disable>Select Attribute</option>
-                            <option>Size</option>
-                            <option>Color</option>
-                            <option>Weight</option>
-                            <option>Demo</option>
-                        </select>
-                    </div>
+        <!-- left column -->
+        <div class="col-md-12">
+            <!-- general form elements -->
+            <div class="card">
+                <div class="card-header">
+                <a href="" class="btn btn-primary">Product variation</a>
                 </div>
-                <!-- /.card-body -->
+                <!-- /.card-header -->
+                <!-- form start -->
+                <form>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputStatus">Attribute</label>
+                            <select id="inputStatus" class="form-control custom-select">                                                           
+                               <option >select Attribute</option>
+                               <option>Size</option>
+                               <option>Color</option>
+                               <option>Pics</option>
+                                <option>Ram Size</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
 
-                <div class="card-footer">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-            </form>
-
-
-        </section>
-        <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
-    <?php include('layout/footer.php') ?>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <!-- /.card -->
+            <!-- /.content-wrapper -->
+            <?php include('layout/footer.php') ?>

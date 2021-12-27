@@ -33,14 +33,14 @@
                                         <th> ID</th>
                                         <th>Name</th>
                                         <th>Status</th>
-                                        <th>Action</th>                                    
+                                        <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>1</td>
                                         <td>Lynx</td>
-                                        <td>Text only</td>                                 
+                                        <td>Text only</td>
                                         <th class="project-actions text-center">
                                             <a class="btn btn-primary btn-sm" href="#">
                                                 <i class="fas fa-folder">
@@ -59,7 +59,7 @@
                                     <tr>
                                         <td>2</td>
                                         <td>IE Mobile</td>
-                                        <td>Windows Mobile 6</td>                                     
+                                        <td>Windows Mobile 6</td>
                                         <th class="project-actions text-center">
                                             <a class="btn btn-primary btn-sm" href="#">
                                                 <i class="fas fa-folder">
@@ -79,7 +79,7 @@
                                         <td>3</td>
                                         <td>PSP browser</td>
                                         <td>PSP</td>
-                                    
+
                                         <th class="project-actions text-center">
                                             <a class="btn btn-primary btn-sm" href="#">
                                                 <i class="fas fa-folder">
@@ -96,7 +96,7 @@
                                             </a>
                                         </th>
                                     </tr>
-                                </tbody>                              
+                                </tbody>
                             </table>
                         </div>
                         <!-- /.card-body -->

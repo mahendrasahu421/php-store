@@ -94,74 +94,70 @@
                     </div>
                     </form>
                 </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="row">
-
-                <div class="col-sm-12">
-                    <div class="card-body">
-                        <div class="form-group">
-                            <label for="Stock Transfer Date">Products</label>
-                            <select id="inputStatus" class="form-control custom-select">
-                                <option disable>Select Attribute</option>
-                                <option>product1</option>
-                                <option>product2</option>
-                                <option>product3</option>
-                                <option>product4</option>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Stock Transfer Date">Products</label>
+                                <select id="inputStatus" class="form-control custom-select">
+                                    <option disable>Select Attribute</option>
+                                    <option>product1</option>
+                                    <option>product2</option>
+                                    <option>product3</option>
+                                    <option>product4</option>
+                                </select>
+                            </div>
+                            <div class="">
+                                <button class="btn btn-primary">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="inputStatus">Note</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9">
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Subtotal (Taka)
+                        </p>
+                        <p>Total (Taka)
+                        </p>
+                        <p>Due Amount (Taka)
+                        </p>
+                        <p>Discount (Taka)
+                        </p>
+                        <p>Amount Paid (Taka)
+                        </p>
+                        <p>Taxi
+                            <select name="" id="" class="form-control" id="exampleInputEmail1">
+                                <option value="">selecte GST</option>
+                                <option value=""> GST</option>
                             </select>
-                        </div>
-                        <div class="">
-                            <button class="btn btn-primary">Add</button>
-                        </div>
+                        <p>Tax Amount (Taka <input type="text" class="form-control" id="exampleInputEmail1"
+                                placeholder="">
+                        </p>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="col-md-12 "><button class="btn btn-primary">Submit</button></div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="card-body">
-                        <div class="form-group">
-                            <label for="inputStatus">Note</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
 
-                        </div>
 
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-9">
-                  
-                </div>
-                <div class="col-sm-3">
-                    <p>Subtotal (Taka)
-                    </p>
-                    <p>Total (Taka)
-                    </p>
-                    <p>Due Amount (Taka)
-                    </p>
-                    <p>Discount (Taka)
-                    </p>
-                    <p>Amount Paid (Taka)
-                    </p>
-                    <p>Taxi
-                        <select name="" id="" class="form-control" id="exampleInputEmail1">
-                            <option value="">selecte GST</option>
-                            <option value=""> GST</option>
-                        </select>
-                    <p>Tax Amount (Taka <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
-                    </p>
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                <div class="col-md-12"><button class="btn btn-primary">Submit</button></div>
-                </div>
-            </div>
-        </div>
+
 </div>
 <!-- Edit Modal HTML -->
 <!-- Delete Modal HTML -->

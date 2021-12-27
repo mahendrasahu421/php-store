@@ -14,6 +14,7 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Quotation</li>
                         <li class="breadcrumb-item active">Add Quotation</li>
                     </ol>
                 </div>
@@ -24,25 +25,29 @@
     <!-- Main content -->
     <!-- Default box -->
     <div class="card">
-        <section class="content">
-            <form>
-                <div class="card-body">
-                    <div class="form-group">
-                        <label for="inputStatus">Quotation Type</label>
-                        <select id="inputStatus" class="form-control custom-select">
-                            <option disable>Select type</option>
-                            <option>sale</option>
-                            <option>purchaes</option>
-                           
-                        </select>
+        <!-- left column -->
+        <div class="col-md-12">
+            <!-- general form elements -->
+            <div class="card">               
+                <!-- /.card-header -->
+                <!-- form start -->
+                <form>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="inputStatus">Quotation Type</label>
+                            <select id="inputStatus" class="form-control custom-select">                                                           
+                               <option>Sale</option>
+                                <option>Purchase</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <!-- /.card-body -->
-            </form>
+                    <!-- /.card-body -->
 
-
-        </section>
-        <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
-    <?php include('layout/footer.php') ?>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <!-- /.card -->
+            <!-- /.content-wrapper -->
+            <?php include('layout/footer.php') ?>

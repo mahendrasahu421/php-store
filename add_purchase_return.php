@@ -14,8 +14,8 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Returns</li>
-                        <li class="breadcrumb-item active">Add Sale Return</li>
+                        <li class="breadcrumb-item active">Return</li>
+                        <li class="breadcrumb-item active">Add Purchase Return</li>
                     </ol>
                 </div>
             </div>
@@ -25,26 +25,36 @@
     <!-- Main content -->
     <!-- Default box -->
     <div class="card">
-        <section class="content">
-            <form>
-                <div class="card-body">
-                    <div class="form-group">
-                        <label for="inputStatus">Chose Purchase</label>
-                        <select id="inputStatus" class="form-control custom-select">
-                            <option disable>Select Purchase #</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                        </select>
+        <!-- left column -->
+        <div class="col-md-12">
+            <!-- general form elements -->
+            <div class="card">
+              
+                <!-- /.card-header -->
+                <!-- form start -->
+                <form>                  
+                        <div class="form-group">
+                            <label for="inputStatus">Chose Purchase</label>
+                            <select id="inputStatus" class="form-control custom-select">                                                           
+                               <option>Product1</option>
+                               <option>Product2</option>
+                               <option>Product3</option>
+                               <option>Product4</option>
+                               <option>Product5</option>
+                               <option>Product6</option>
+                               <option>Product7</option>
+                               <option>Product8</option>
+                               <option>Product9</option>                           
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <!-- /.card-body -->
-            </form>
+                    <!-- /.card-body -->
 
-
-        </section>
-        <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
-    <?php include('layout/footer.php') ?>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <!-- /.card -->
+            <!-- /.content-wrapper -->
+            <?php include('layout/footer.php') ?>

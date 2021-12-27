@@ -25,21 +25,19 @@
                         <div class="card-header">
                             <a href="store2.php" class="btn btn-primary">Create New Attribute</a>
                         </div>
-                       <!-- /.card-header -->
+                        <!-- /.card-header -->
                         <div class="card-body">
                             <table id="example2" class="table table-bordered table-hover">
                                 <thead>
                                     <tr>
                                         <th>ID</th>
                                         <th>Name</th>
-                                        <th>Status</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <td>1</td>
                                     <td>Gecko</td>
-                                    <td>Mozilla 1.6</td>
                                     <th class="project-actions text-center">
                                         <a class="btn btn-primary btn-sm" href="#">
                                             <i class="fas fa-folder">
@@ -57,7 +55,6 @@
                                     </tr>
                                     <td>2</td>
                                     <td>Other browsers</td>
-                                    <td>All others</td>
                                     <th class="project-actions text-center">
                                         <a class="btn btn-primary btn-sm" href="#">
                                             <i class="fas fa-folder">
@@ -72,7 +69,7 @@
                                             </i>
                                         </a>
                                     </th>
-                                  </tr>
+                                    </tr>
                                 </tbody>
                                 <tfoot>
 
