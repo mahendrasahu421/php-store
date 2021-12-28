@@ -46,9 +46,6 @@
                                         <td>Win 95+</td>
                                         <td>images</td>
                                         <th class="project-actions text-center">
-                                            <a class="btn btn-primary btn-sm" href="#">
-                                                <i class="fas fa-folder"> </i>
-                                            </a>
                                             <a class="btn btn-info btn-sm" href="#">
                                                 <i class="fas fa-pencil-alt"></i>
                                             </a>

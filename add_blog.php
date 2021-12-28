@@ -29,7 +29,6 @@
                 <div class="col-lg-12">
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Name </h3>
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
                                     <i class="fas fa-minus"></i>
@@ -39,11 +38,11 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label for="inputName">Name</label>
-                                <input type="text" id="inputName" class="form-control">
+                                <input type="text" id="inputName" class="form-control" placeholder="Name">
                             </div>
                             <div class="form-group">
                                 <label for="inputDescription">Description</label>
-                                <textarea id="inputDescription" class="form-control" rows="4"></textarea>
+                                <textarea id="inputDescription" class="form-control" rows="4" placeholder="Write Your Message"></textarea>
                             </div>
                             <div class="form-group">
                                 <label for="inputStatus">Blog Category</label>
@@ -56,7 +55,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="inputClientCompany">Slug</label>
-                                <input type="text" id="inputClientCompany" class="form-control">
+                                <input type="text" id="inputClientCompany" class="form-control" placeholder="Slug">
                             </div>
                             <div class="form-group">
                                 <label for="inputStatus">Is Featured </label>

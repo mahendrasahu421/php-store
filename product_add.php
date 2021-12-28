@@ -278,7 +278,8 @@
                                                                     placeholder="SKU">
                                                             </div>
 
-                                                            <button href="product_add.php" class="btn btn-primary">Back</button>
+                                                            <button href="product_add.php"
+                                                                class="btn btn-primary">Back</button>
                                                             <button class="btn btn-primary">Continue</button>
                                                         </div>
                                                     </div>

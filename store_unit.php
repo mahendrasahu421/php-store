@@ -1,10 +1,7 @@
 <?php include('layout/header.php') ?>
-
 <?php include('layout/sidebar.php') ?>
-<!-- /.navbar -->
-<!-- Content Wrapper. Contains page content -->
+
 <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
     <section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
@@ -19,19 +16,14 @@
                     </ol>
                 </div>
             </div>
-        </div><!-- /.container-fluid -->
+        </div>
     </section>
-
-    <!-- Main content -->
-    <!-- general form elements -->
     <section class="content">
         <div class="container-fluid">
             <div class="card">
                 <div class="card-header">
                     <a href="product_attribute.php" class="btn btn-primary">Product List</a>
                 </div>
-                <!-- /.card-header -->
-                <!-- form start -->
                 <form>
                     <div class="card-body">
                         <div class="form-group">

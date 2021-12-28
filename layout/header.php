@@ -149,7 +149,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <button class="btn btn-primary">POC</button>
+        <button class="btn btn-primary">POS</button>
       </li>
       <li class="nav-item">
         <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">

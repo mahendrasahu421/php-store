@@ -128,7 +128,7 @@
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-tachometer-alt"></i>
                     <p>
-                        Stock / inventory
+                        Stock / Inventory
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
@@ -172,7 +172,7 @@
                         <li class="nav-item">
                             <a href="quotations.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>ALL Quotation</p>
+                                <p>All Quotation</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -187,7 +187,7 @@
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-tachometer-alt"></i>
                     <p>
-                    purchase
+                    Purchase
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
@@ -201,7 +201,7 @@
                         <li class="nav-item">
                             <a href="add_purchase.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p> Add purchases</p>
+                                <p> Add Purchases</p>
                             </a>
                         </li>                                                                 
             </ul>
@@ -210,7 +210,7 @@
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-tachometer-alt"></i>
                     <p>
-                   sell/orders
+                   Sell/Orders
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
@@ -318,7 +318,7 @@
                         <li class="nav-item">
                             <a href="expense-adjustment.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>expense</p>
+                                <p>Expense</p>
                             </a>
                         </li>                                                                 
             </ul>
@@ -339,7 +339,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="ledger.php" class="nav-link">
+                            <a href="blog_category.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Blog Catogery</p>
                             </a>

@@ -5,13 +5,13 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Product Catogery</h1>
+                    <h1 class="m-0">Blog Category</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
                         <li class="breadcrumb-item active">Catalog</li>
-                        <li class="breadcrumb-item active">Product Catogery</li>
+                        <li class="breadcrumb-item active">Blog</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -23,18 +23,19 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <a href="store5.php" class="btn btn-primary">Create New Catogery</a>
+                            <a href="add_blog.php" class="btn btn-primary">Create New Blog</a>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
-                        <table id="example2" class="table table-bordered table-hover">
-                          <thead>
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead>
                                     <tr class="text-center">
                                         <th>ID</th>
                                         <th>Name</th>
-                                        <th>Description</th>
-                                        <th> Slug</th>
-                                        <th> Action</th>
+                                        <th>Status</th>
+                                        <th> Image</th>
+                                        <th>Action</th>
+
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -53,35 +54,15 @@
                                         </th>
                                     </tr>
                                     <tr>
-                                        <td>2</td>
-                                        <td>Other browsers</td>
-                                        <td>All others</td>
-                                        <td>-</td>
-                                        <th class="project-actions text-center">
-                                            <a class="btn btn-primary btn-sm" href="#">
-                                                <i class="fas fa-folder"></i>
-                                            </a>
-                                            <a class="btn btn-info btn-sm" href="#">
-                                                <i class="fas fa-pencil-alt"></i>
-                                            </a>
-                                            <a class="btn btn-danger btn-sm" href="#">
-                                                <i class="fas fa-trash"></i>
-                                            </a>
-                                        </th>
                                     </tr>
                                 </tbody>
                                 <tfoot>
                                 </tfoot>
                             </table>
                         </div>
-                        <!-- /.card-body -->
                     </div>
-
-                    <!-- /.col -->
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container-fluid -->
     </section>
 </div>
 

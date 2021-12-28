@@ -15,55 +15,52 @@
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
-        </div><!-- /.container-fluid -->
-    </div>
-    <section class="content">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="input-group">
-                            <div class="form-outline">
-                                <label class="form-label" for="form1">Search</label>
-                                <input type="search" id="form1" class="form-control" />
+            <section class="content">
+                <div class="card">
+                    <div class="row mx-3">
+                        <div class="col-sm-12">
+                            <div class="input-group">
+                                <div class="form-outline">
+                                    <label class="form-label" for="form1">Search</label>
+                                    <input type="search" id="form1" class="form-control" />
+                                </div>
                             </div>
                         </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                            <table id="example2" class="table table-bordered table-hover">
-                                <thead>
-                                    <tr>
-                                        <th> id</th>
-                                        <th>Name</th>
-                                        <th>Code</th>
-                                        <th>Account Type</th>
-                                        <th>Status</th>
-                                        
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    </tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    </tr>
-                                </tbody>
-                                <tfoot>
-
-                                </tfoot>
-                            </table>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card-body">
+                                <table id="example2" class="table table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Id</th>
+                                            <th>Name</th>
+                                            <th>Code</th>
+                                            <th>Account Type</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        </tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                    </tfoot>
+                                </table>
+                            </div>
                         </div>
-                        <!-- /.card-body -->
                     </div>
                 </div>
-                <!-- /.col -->
-            </div>
-            <!-- /.row -->
+            </section>
         </div>
-        <!-- /.container-fluid -->
-    </section>
+    </div>
 </div>
+
+
 
 <?php include('layout/footer.php') ?>
